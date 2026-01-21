@@ -11,13 +11,13 @@ Quickly hacked together with vibes.
 ### Quick Install (Recommended)
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/TheShoutingParrot/tokenoptimizer-cli/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/yourusername/tokenoptimizer/main/install.sh | bash
 ```
 
 Or download and run manually:
 
 ```bash
-wget https://raw.githubusercontent.com/TheShoutingParrot/tokenoptimizer-cli/main/install.sh
+wget https://raw.githubusercontent.com/yourusername/tokenoptimizer/main/install.sh
 chmod +x install.sh
 ./install.sh
 ```
@@ -34,7 +34,7 @@ pip install tokenoptimizer
 ### From Source
 
 ```bash
-git clone https://github.com/TheShoutingParrot/tokenoptimizer-cli.git
+git clone https://github.com/yourusername/tokenoptimizer.git
 cd tokenoptimizer
 pip install -e .
 ```
@@ -85,7 +85,7 @@ cat prompt.txt | tokenoptimizer
 I use this prompt:
 
 ```
-Use tokenoptimizer to compress prompts while preserving meaning. Use it like so: `echo "X" | tokenoptimizer`. Adjust aggressiveness as needed with `-a` flag.
+Use tokenoptimizer to compress prompts while preserving meaning. Use it like so: `echo "X" | tokenoptimizer`. Adjust aggressiveness as needed with `-a` flag. Do not read the output at all and do not assess it.
 ```
 
 ### Aggressiveness Levels
@@ -217,7 +217,7 @@ echo "Optimized prompt: $OPTIMIZED"
 ### Setup Development Environment
 
 ```bash
-git clone https://github.com/TheShoutingParrot/tokenoptimizer-cli.git
+git clone https://github.com/yourusername/tokenoptimizer.git
 cd tokenoptimizer
 pip install -e ".[dev]"
 ```
